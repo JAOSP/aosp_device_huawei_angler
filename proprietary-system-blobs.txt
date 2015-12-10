@@ -1,5 +1,4 @@
 system/bin/ATFWD-daemon
-system/bin/InputEventFind
 system/bin/PktRspTest
 system/bin/cnd
 system/bin/diag_callback_client

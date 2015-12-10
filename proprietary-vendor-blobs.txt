@@ -10,6 +10,7 @@
 /system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin
 /system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin
 /system/vendor/build.prop
+/system/vendor/bin/InputEventFind
 /system/vendor/bin/qti
 /system/vendor/bin/sound_trigger_test
 /system/vendor/bin/qseecomd
