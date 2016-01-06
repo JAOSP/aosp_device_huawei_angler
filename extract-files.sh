@@ -4,17 +4,17 @@ VENDOR=huawei
 DEVICE=angler
 
 echo "Please wait..."
-wget -nc -q https://dl.google.com/dl/android/aosp/angler-mmb29m-factory-8c31db3f.tgz
-tar zxf angler-mmb29m-factory-8c31db3f.tgz
-rm angler-mmb29m-factory-8c31db3f.tgz
-cd angler-mmb29m
-unzip image-angler-mmb29m.zip
-rm image-angler-mmb29m.zip
+wget -nc -q https://dl.google.com/dl/android/aosp/angler-mmb29p-factory-25ed9560.tgz
+tar zxf angler-mmb29p-factory-25ed9560.tgz
+rm angler-mmb29p-factory-25ed9560.tgz
+cd angler-mmb29p
+unzip image-angler-mmb29p.zip
+rm image-angler-mmb29p.zip
 cd ../
-./simg2img angler-mmb29m/vendor.img vendor.ext4.img
+./simg2img angler-mmb29p/vendor.img vendor.ext4.img
 mkdir vendor
 sudo mount -o loop -t ext4 vendor.ext4.img vendor
-./simg2img angler-mmb29m/system.img system.ext4.img
+./simg2img angler-mmb29p/system.img system.ext4.img
 mkdir system
 sudo mount -o loop -t ext4 system.ext4.img system
 sudo chmod a+r system/bin/qmuxd
@@ -46,6 +46,6 @@ sudo umount vendor
 rm -rf vendor
 sudo umount system
 rm -rf system
-rm -rf angler-mmb29m
+rm -rf angler-mmb29p
 rm vendor.ext4.img
 rm system.ext4.img
