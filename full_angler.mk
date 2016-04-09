@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES := device/huawei/angler/apns-full-conf.xml:system/etc/apns-co
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=angler TARGET_DEVICE=angler BUILD_FINGERPRINT=google/angler/angler:6.0.1/MMB29P/2473553:user/release-keys PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29P 2473553 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=angler TARGET_DEVICE=angler BUILD_FINGERPRINT=google/angler/angler:6.0.1/MHC19Q/2705526:user/release-keys PRIVATE_BUILD_DESC="angler-user 6.0.1 MHC19Q 2705526 release-keys"
 
 PRODUCT_NAME := full_angler
 PRODUCT_DEVICE := angler
